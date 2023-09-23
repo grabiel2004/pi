@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, #c51fb7, #a90e84); /* Fondo degradado */
+    color: #fff; /* Texto blanco */
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 48px; /* Tamaño de fuente más grande */
+    margin-bottom: 10px;
+}
+
+.foto {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    border: 3px solid #c51fb7; /* Borde alrededor de las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.contenedor-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(to bottom, #c72c74, #9c0d55); /* Fondo degradado */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+}
+
+/* Agrega estilos para los íconos de redes sociales y enlaces útiles aquí */
